@@ -9,6 +9,13 @@ test('check Config', async t => {
   const config = await getConfig(templateDir)
   t.is(config.name, 'testConfig')
 
+  let error = await t.throwsAsync(async () => {
+    await getConfig(__dirname + 'faultyTemplate')
+  })
+  t.regex(error.message, /no such file/)
+
+
+
   const mockTemplateDir = '/tmp'
   const nonexistentDir = '/nonexistent'
 
@@ -20,7 +27,7 @@ test('check Config', async t => {
   const config2 = await getConfig(mockTemplateDir)
   t.is(config2.name, 'testConfig')
 
-  let error = await t.throwsAsync(async () => {
+  error = await t.throwsAsync(async () => {
     const config3 = await getConfig(nonexistentDir)
     })
   t.regex(error.message, /no such file/)
