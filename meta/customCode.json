@@ -9,10 +9,14 @@
         "path": ".gitignore",
         "extra": "\n"
       },
+      ".nycrc.yml": {
+        "path": ".nycrc.yml",
+        "testCoverageThresholds": "\ncheck-coverage: true\nbranches: 0\nlines: 55\nfunctions: 30\nstatements: 50\n"
+      },
       "README.md": {
         "path": "README.md",
         "beginning": "\n",
-        "description": "\ngear-box\n======\ninterface to config files for templates\n",
+        "description": "\ninterface to config files for projects.\n\n![](src/custom/images/gear-box.gif)\n",
         "afterDescription": "\n",
         "badges": "\n\n[//]: # ( ns__start_section usageSection )\n\n[![Version](https://img.shields.io/npm/v/gear-box.svg)](https://npmjs.org/package/gear-box)\n[![Downloads/week](https://img.shields.io/npm/dw/gear-box.svg)](https://npmjs.org/package/gear-box)\n[![License](https://img.shields.io/npm/l/gear-box.svg)](https://github.com/YizYah/gear-box/blob/master/package.json)\n\n[![Geenee](https://img.shields.io/badge/maintained%20by-geenee-brightgreen)](https://npmjs.org/package/geenee)\n[![Template](https://img.shields.io/badge/template-ts--packrat-blue)](https://npmjs.org/package/ts-packrat)\n",
         "APIIntro": "\n# API\n",

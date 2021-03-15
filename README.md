@@ -8,9 +8,9 @@
 [//]: # ( ns__start_section intro )
 
 [//]: # ( ns__custom_start description )
-gear-box
-======
-interface to config files for templates
+interface to config files for projects.
+
+![](src/custom/images/gear-box.gif)
 
 [//]: # ( ns__custom_end description )
 
