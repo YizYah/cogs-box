@@ -10,7 +10,7 @@
 [//]: # ( ns__custom_start description )
 interface to config files for geenee projects.
 
-![](src/custom/images/gear-box.gif)
+![](src/custom/images/cogs-box.gif)
 
 [//]: # ( ns__custom_end description )
 
