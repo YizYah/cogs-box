@@ -1,5 +1,5 @@
 {
-  "name": "gear-box",
+  "name": "cogs-box",
   "version": "1.0.0",
   "description": "interface to config files for templates",
   "main": "lib/index.js",
