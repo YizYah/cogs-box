@@ -1,0 +1,15 @@
+userClass: user
+codeName: MyApp
+template:
+  dir: /home/yisroel/packages/packrat-ts-all/packrat
+  name: null
+  version: 1
+starter: /home/yisroel/packages/gear-box-all/gear-box.starter
+general:
+  packageName: gear-box
+  author: YizYah
+  owner: YizYah
+  description: interface to config files for templates
+  repositoryName: gear-box
+  license: MIT
+  multi: true
