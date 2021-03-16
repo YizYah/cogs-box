@@ -4,8 +4,8 @@
 /* ns__custom_end beginning */
 
 /* types */
-// import { temp } from './custom/temp';
-// temp()
+import { temp } from './custom/temp';
+temp()
     /* ns__custom_start export */
 export * from './custom/configuration'
 export {CONFIG_FILE} from './custom/CONFIG_FILE'
