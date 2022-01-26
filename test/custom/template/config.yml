@@ -18,7 +18,8 @@ format:
     .md: )
     .yml: |+
     .gitignore: |+
-
+componentTypes: {}
+dataFunctionTypes: {}
 general:
   packageName:
     type: string

@@ -4,12 +4,12 @@
 /* ns__custom_end beginning */
 
 /* types */
-import { temp } from './custom/temp';
-temp()
+
     /* ns__custom_start export */
 export * from './custom/configuration'
 export {CONFIG_FILE} from './custom/CONFIG_FILE'
-export const getConfig = require('./custom/configs/getConfig').getConfig
-export const setConfig = require('./custom/configs/setConfig').setConfig
+export {isValidConfig} from './custom/configs/isValidConfig'
+export {getConfig } from './custom/configs/getConfig'
+export {setConfig } from './custom/configs/setConfig'
     /* ns__custom_end export */
 /* constants */

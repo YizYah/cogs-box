@@ -4,7 +4,7 @@ import {CONFIG_FILE} from '../CONFIG_FILE'
 const fs = require('fs-extra')
 const yaml = require('js-yaml')
 
-export async function getConfig(templateDir: string) {
+export async function getConfig(templateDir: string): Promise<Configuration> {
   let config: Configuration
   const configFile = `${templateDir}/${CONFIG_FILE}`
   try {
