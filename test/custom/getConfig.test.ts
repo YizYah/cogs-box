@@ -1,7 +1,7 @@
 import test from 'ava'
 
-import {getConfig} from '../../src/custom/configs/getConfig'
-import {setConfig} from '../../src/custom/configs/setConfig'
+import {getConfig} from '../../src'
+import {setConfig} from '../../src'
 const mockFs = require('mock-fs')
 
 test('check Config', async t => {
